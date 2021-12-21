@@ -45,7 +45,8 @@
         "postcss-cli": "^8.3.1",
         "rimraf": "^3.0.2",
         "stylelint": "^9.10.1",
-        "stylelint-scss": "^3.5.4"
+        "stylelint-scss": "^3.5.4",
+        "css-minify": "^2.0.0"
     },
     "dependencies": {
         "http-server": "^14.0.0",
