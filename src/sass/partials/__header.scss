@@ -34,7 +34,7 @@ header {
   font-weight: black;
   color: $color-light;
   margin-left: 15%;
-  
+
   h3 {
     margin: 0;
     font-size: 36px;
@@ -94,7 +94,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  //align-items: center;
 
   h1 {
     z-index: 2;
@@ -133,4 +133,12 @@ header {
 
 .header {
   text-transform: uppercase;
+}
+
+.btn1 {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  color: white;
 }
