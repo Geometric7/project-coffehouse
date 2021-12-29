@@ -1,17 +1,16 @@
 import Product from './Product.js';
 import { article, classNames, select, settings } from './settings.js';
 
+(function newHeader() {
+  let headers = ['Home of Original Tastes', 'Real Venezuela, Real Coffee', 'Taste Real Venezuela'];
+  let randomHeader = Math.floor(Math.random() * headers.length);
+  document.getElementById('randomHeader').innerHTML = headers[randomHeader];
+  document.getElementById('randomHeader').style.textAlign = "center";
+  //document.getElementById('randomHeader').innerHTML = '<p class="line"></p>';
+  //document.getElementById('randomHeader').innerHTML
+}());
 
 const app = {
-
-  init:function newHeader() {
-    let headers = ['Home of Original Tastes', 'Real Venezuela, Real Coffee', 'Taste Real Venezuela'];
-    let randomHeader = Math.floor(Math.random() * headers.length);
-    document.getElementById('randomHeader').innerHTML = headers[randomHeader];
-    document.getElementById('randomHeader').style.textAlign = "center";
-    //document.getElementById('randomHeader').innerHTML = '<p class="line"></p>';
-    //document.getElementById('randomHeader').innerHTML
-  }(),
 
   initPages: function () {
 
